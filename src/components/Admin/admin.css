@@ -1,0 +1,8 @@
+.lista-productos-admin{
+    display: flex;
+    justify-content:  space-between;
+}
+.lista-usuarios-admin{
+    display: flex;
+    justify-content:  space-between;
+}

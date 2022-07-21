@@ -1,0 +1,27 @@
+.recientes-title{
+    margin-top: 100px;
+    text-align: center;
+}
+.recientes-title h3{
+    color: #303030;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #C9C9C9;
+}
+
+.btn-vermas{
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px 30px;
+    border: none;
+    background-color: #F2AF5D;
+    color: #000;
+
+}
+
+@media (max-width: 600px) {
+    .recientes-title h3{font-size: 25px;}
+}

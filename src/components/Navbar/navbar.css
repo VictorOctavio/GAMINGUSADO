@@ -1,0 +1,95 @@
+.navegation{
+    background-color: rgb(24, 24, 24);
+    min-height: 75px;
+    transition: .6s;
+}
+
+.navbar-opacity{
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+.navegation .logo-icon{
+    font-weight: 800;
+    color: #fff;
+}
+
+.navegation .logo-icon:link, .logo-icon:visited, .logo-icon:active{
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navegation .logo-icon .img-logo-gu{
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px; height: 50px;
+    object-fit: contain;
+
+    border: 1px solid rgb(56, 56, 56);
+}
+
+
+.navegacion-derecha{margin-left: auto;}
+.navegacion-derecha a{text-transform: capitalize;}
+.navegacion-derecha a b{color: white; font-weight: 400;}
+
+
+.navegacion-derecha .mi-cuenta .mi-cuenta-svg{color: rgb(255, 255, 255); font-size: 25px;}
+
+
+
+.lineaAmarilla, .lineaBlue{
+    position: absolute;
+    width: 15px;
+    left: 95%;
+    margin: 0px; 
+    opacity: .5;
+    z-index: 0;
+}
+
+.lineaAmarilla{
+    background-color: #F2AF5D;
+    height: 100%;
+}
+
+.lineaBlue{
+    height: 100%;
+    margin-left: 18px;
+    background-color: #0275d8;
+}
+
+
+/* LISTADO PRODUCTOS Y MI CUENTA POSICION EXPAND */
+@media (max-width: 755px){
+
+    .lineaAmarilla, .lineaBlue{ display: none;}
+
+
+    .navegacion-derecha{
+        padding: 10px 0;
+    }
+
+    .navegacion-derecha .mi-cuenta {
+        position: absolute;
+        margin-left: 100px;
+    }
+
+    .navegacion-derecha .ir-login{
+        position: absolute;
+        margin-left: 50%;
+    }
+}
+
+/* FORM SEARCH POSITION NAVBAR EXPAND */
+@media (max-width: 600px) { 
+    .form-search{
+        margin-top: 10px;
+    }
+
+    .form-search button{
+        position: absolute;
+        margin-left: 80%;
+        color: rgb(3, 3, 3);
+        background-color: rgb(134, 134, 134);
+    }
+}
+    

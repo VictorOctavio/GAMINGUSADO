@@ -1,0 +1,27 @@
+/* FILTER */
+.filer-section{
+    border-bottom: 1px solid rgb(180, 179, 179);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px 0;
+}
+
+.filer-section form {
+    display: flex;
+    width: 35%;
+}
+
+@media only screen and (max-width: 650px){
+    .filer-section{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .filer-section form {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}

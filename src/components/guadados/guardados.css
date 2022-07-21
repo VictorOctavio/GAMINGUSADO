@@ -1,0 +1,44 @@
+.saves{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-guardados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section-guardados .noProductos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-guardados .noProductos h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.section-guardados .noProductos button{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.guardados-container .buttons-guardados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+
+@media (max-width: 650px) {
+    .section-guardados .noProductos h3{
+        font-size: 25px;
+    }
+
+    .section-guardados .noProductos button{
+        width: 50%;
+    }
+}

@@ -1,0 +1,52 @@
+.login-img-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.062);
+    box-shadow: -34px 19px 88px -15px #00000070;
+
+    border: 2px solid rgba(0, 0, 0, 0.116);
+
+    animation: borderRGB 4s ease-in-out 0s infinite alternate both;
+    animation-play-state: running;
+}
+
+@keyframes borderRGB {
+    0%{border-right-color: #FF6347;}
+    33%{border-left-color: rgb(255, 0, 234);}
+    66%{border-top-color:  #ff3116;}
+    100%{border-bottom-color: #27a3ea;}
+}
+
+.login-card-img{
+    width: 40vh;
+    height: auto;
+    object-fit: contain;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.title-login{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1000px){
+    .login-card-img{width: 35vh;}
+}
+
+@media (max-width: 767px){
+    .login-img-container{
+        padding: 20px;
+        width: 100vh;
+    }
+    .login-card-img{
+        width: 30vh;
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px){
+    .login-card-img{width: 20vh;}
+}
